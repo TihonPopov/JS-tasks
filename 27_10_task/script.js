@@ -19,10 +19,11 @@ if(user_name === "Админ"){
     }else{
         alert("Вход отменен")
     }
-}else if(user_name !== null){
+}else if(user_name){
     alert("Я вас не знаю")
 }else if(user_name === ''){
-    alert("Заполните поле")
+    alert("Заполните поле");
+    
 }
 else{
     alert("Вход отменен")
