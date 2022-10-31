@@ -11,24 +11,24 @@
 
 
 /*********1 задание*********/
-// let x = prompt('введите число', '');
-// if (x === '7'){
-//     alert("Верно")
-// } else{
-//     alert('Неверно')
-// }
+let x = +prompt('введите число', '');
+if (x === 7){
+    alert("Верно")
+} else{
+    alert('Неверно')
+}
 
 /*********2 задание*********/
-// let a = prompt('Введите первое значение', '');
-// let b = prompt('Введите второе значение', '');
-// if(a <= 1 && b >= 3){
-//     alert(Number(a) + Number(b))
-// } else{
-//     alert(a - b)
-// }
+let a = +prompt('Введите первое значение', '');
+let b = +prompt('Введите второе значение', '');
+if(a <= 1 && b >= 3){
+    alert(a + b)
+} else{
+    alert(a - b)
+}
 
 /*********3 задание*********/
-let time_code = prompt('Введите число от 0 до 59', '');
+let time_code = +prompt('Введите число от 0 до 59', '');
 if (time_code >= 0 && time_code < 15){
     alert('Первая четверть');
 } else if(time_code >= 15 && time_code < 30){
