@@ -20,12 +20,7 @@ for ( let i = 0; i < numbers.length; i++){
 }
 console.log(summary);
 
-// let array = [1, 2, 3, 4, 5];
-// let result = 0;
-// for (let i = 0; i < array.length; i++) {
-//   result += array[i];
-// }
-// console.log(result);
+
 
 // ******* 2е задание******
 
@@ -46,12 +41,3 @@ for( let i = 0; i < array.length; i++){
    } 
     
 }
-// var arr = [12, 42, 63, 56, 122, 17, 117, 25, 645, 722, 964];
-
-// for (var i = 0; i < arr.length; i++)
-// {
-//   if ((arr[i] % 2) === 0)
-//   {
-//   	console.log(arr[i]);
-//   }
-// }
