@@ -43,3 +43,14 @@ for( let i = 0; i < array.length; i++){
     console.log(newArray);
    } 
 }
+const thirdArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+const newArr = [];
+console.log(`Третий Массив: ${thirdArr}`);
+
+for (let index of thirdArr) {
+	if (index % 2 === 0) {
+		newArr.push(index);
+	}
+}
+
+console.log(`Новый Массив четных чисел: ${newArr}`);

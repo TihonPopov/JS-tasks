@@ -1,0 +1,14 @@
+.notification{
+    background-color: #084298;
+    color: #cfe2ff;
+    border-color: #b6d4fe;
+    display: none;
+  }
+  
+.welcome{
+    display: block;
+}
+
+.btn{
+    
+}
